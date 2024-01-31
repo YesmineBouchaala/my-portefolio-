@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image\png" href="logo.png">
+    <title>Parcours Académique</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ajoutez ici vos liens vers les styles CSS si vous en avez -->
+   
+</head>
+
+<body>
+    <div class="main">
+       <div class="navbar">
+          <div class="icon">
+            <style>
+                h3 {
+                  transition: transform 0.5s ease; /* Ajoute une transition à la propriété transform */
+                }
+            
+                h3:hover {
+                  transform: translateX(-500px); /* Déplace le titre de 50 pixels vers la droite au survol */
+                }
+            </style>
+              <h3 class="logo">   SAVOIR   </h3>
+
+        </div>
+              <div class="content">
+                <style>
+                    h1 {
+                      transition: transform 0.5s ease; /* Ajoute une transition à la propriété transform */
+                    }
+                
+                    h1:hover {
+                      transform: translateX(-10000px); /* Déplace le titre de 50 pixels vers la droite au survol */
+                    }
+                </style>
+               <br>
+               <h1> °°Mon Parcours Académique°°</h1>
+               
+            
+              <p class="par">
+                 <br>    * Je suis actuellement étudiante en première année de génie informatique à l'IIT<br>
+                         (Institut International de Technologie). <br>
+                         * Mon parcours académique a débuté au lycée Hbib Thameur,<br>
+                         où j'ai obtenu mon baccalauréat en sciences.<br>
+                         * j'ai poursuivi mes études en intégrant la section PC des classes préparatoires pendant deux ans<br>
+                         Ces années préparatoires m'ont permis de développer <br>
+                         une solide base en physique, en chimie et en mathématiques <br>
+                         Animée par un intérêt croissant pour le domaine de l'informatique,<br>
+                         * j'ai choisi de m'orienter vers le génie informatique à l'IIT. <br>
+                         Je suis enthousiaste à l'idée d'explorer les vastes domaines de l'informatique <br>
+                         et de contribuer à l'innovation technologique au cours de mes années d'études supérieures.<br>
+                </p>
+
+
+                <section>
+              
+                    <style>
+                        /* Style du bouton */
+                        button {
+                          width: 150px; /* Largeur du bouton */
+                          height: 40px; /* Hauteur du bouton */
+                          font-size: 16px; /* Taille de la police du texte du bouton */
+                        }
+                      </style>
+
+                <button onclick="ouvrirPDF()">diplome Bac</button>
+
+                <script>
+                  function ouvrirPDF() {
+                    // Remplacez "chemin/vers/votre-fichier.pdf" par le chemin réel de votre fichier PDF
+                    var cheminPDF = "bac.pdf";
+              
+                    // Ouvre le PDF dans une nouvelle fenêtre
+                    window.open(cheminPDF, "_blank");
+                  }
+                </script>
+           
+               </div>
+            </section>
+        </div>
+     </div>   <!-- Ajoutez d'autres sections pour chaque diplôme -->
+</div>
+
+    </section>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>
